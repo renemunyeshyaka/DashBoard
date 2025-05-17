@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="DashBorad">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Rene MUNYESHYAKA">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                            <span class="title">Signatory Name</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon>
+                            </span>
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <span class="title">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- main -->
+
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </div>
+            <!-- search  -->
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search Here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+            <!-- userImage -->
+                    <div class="user">
+                        <img src="images/user.jpeg" alt="Profile" title="Profile">
+                    </div>
+                </div>
+            <!-- cards -->
+            <div class="cardBox">
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">973</div>
+                        <div class="cardName">Total Requests</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="git-pull-request-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">5879</div>
+                        <div class="cardName">Fro Poday</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+               
+                <div class="card">
+                    <div>
+                        <div class="numbers">893</div>
+                        <div class="cardName">Under Process</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="refresh-circle-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Signed Requests</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="happy-outline"></ion-icon>
+                    </div>
+                </div>
+              
+                
+                <div class="card">
+                    <div>
+                        <div class="numbers">7,828</div>
+                        <div class="cardName">Testimonials</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+<div class="details">
+    <!-- Request details list -->
+    <div class="recentRequest">
+        <div class="cardHeader">
+            <h2> Recent Requests</h2>
+            <a href="#" class="btn"> Read More.. </a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td>N#</td>
+                    <td>Departure</td>
+                    <td>Destination</td>
+                    <td>Names</td>
+                    <td>Duration</td>
+                    <td>Status</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> UR/CST</td>
+                    <td> UR/CASS</td>
+                    <td>JEAN RENE MUNYESHYAKA</td>
+                    <td>5 days</td>
+                    <td><span class="status completed"> Signed </span></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>UR/CAVM</td>
+                    <td>UR/HQ</td>
+                    <td>Moses Kananura</td>
+                    <td> 3days</td>
+                    <td><span class="status pending"> Pending </span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>UR/CST</td>
+                    <td>UR/HQ</td>
+                    <td>Prof. Marcel</td>
+                    <td> 3days</td>
+                    <td><span class="status completed"> Signed </span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>UR/CST</td>
+                    <td>Sweeden Program</td>
+                    <td>Dr. James</td>
+                    <td> 3weeks</td>
+                    <td><span class="status inprogress"> In Progress </span></td>
+                    
+                </tr>
+
+
+                <tr>
+                    <td>5</td>
+                    <td>UR/CAVM</td>
+                    <td>UR/HQ</td>
+                    <td>Prof. JB</td>
+                    <td> 3days</td>
+                    <td><span class="status pending"> Pending</span></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>UR/CST</td>
+                    <td>UR/HQ</td>
+                    <td>Prof. Ntaganda</td>
+                    <td> 3days</td>
+                    <td><span class="status completed"> Signed </span></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>UR/CST</td>
+                    <td>UR/CMHS</td>
+                    <td>Dr. Paul Munyaneza</td>
+                    <td> 2days</td>
+                    <td><span class="status canceled"> Canceled </span></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- New customer -->
+    <div class="recentUsers">
+        <div class="cardHeader">
+            <h2> Recent Users</h2>
+        </div>
+        <table>
+            
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user1.jpeg"></div></td>
+                <td><h4>Kalisa <br><span>Rwanda</span></h4></td>
+            </tr>
+            
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user2.jpeg"></div></td>
+                <td><h4>Edmond <br><span>England</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user3.jpeg"></div></td>
+                <td><h4>Taboro <br><span>Rwanda</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user4.jpeg"></div></td>
+                <td><h4>Juvenal <br><span>Rwanda</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user5.jpeg"></div></td>
+                <td><h4> Bonavanture <br><span>Rwanda</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user6.jpeg"></div></td>
+                <td><h4>Eric <br><span>Rwando-USA</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user7.jpeg"></div></td>
+                <td><h4>Jean Jule <br><span>Kenya</span></h4></td>
+            </tr>
+            <tr>
+                <td width="60px"><div class="imgB"> <img src="images/user8.jpeg"></div></td>
+                <td><h4>Suzan Moreen <br><span>Kenya</span></h4></td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+
+
+
+            </div>
+            
+        </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        // Menu Toggle
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+
+        toggle.onclick = function(){
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+        // add hovered class in selected list item
+        let list = document.querySelectorAll('.navigation li');
+        function activeLink(){
+            list.forEach((item)=>
+            item.classList.remove(''));
+            this.classList.add('hovered');
+        }
+        list.forEach((item) =>
+        item.addEventListener('mouseover',activeLink));
+
+    </script>
+
+    </body>
+
+
+</html>
